@@ -1,0 +1,176 @@
+.hotline-fixed-8 {
+    position: fixed;
+    width: 120px;
+    z-index: 9;
+    height: 140px;
+}
+
+
+.hotline-fixed-8 .oneclick-ph-circle {
+    animation: 1.2s ease-in-out 0s normal none infinite running oneclick-circle-anim;
+    background-color: transparent;
+    border: 2px solid rgba(30,30,30,.4);
+    border-radius: 100%;
+    height: 120px;
+    left: 0px;
+    opacity: .1;
+    position: absolute;
+    top: 30px;
+    transform-origin: 50% 50% 0;
+    transition: all 0.5s ease 0s;
+    width: 120px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.hotline-fixed-8 .oneclick-ph-img-circle {
+    animation: 1.3s ease-in-out 0s normal none infinite running oneclick-circle-img-anim;
+    background: url(bg.png) no-repeat center center transparent;
+    width: 45px;
+    height: 45px;
+    right: 43px;
+    opacity: 1;
+    position: absolute;
+    top: 68px;
+    z-index: 1;
+    background-size: 100%;
+    left: 38px;
+}
+
+@keyframes oneclick-circle-img-anim {
+    0% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+}
+
+@keyframes oneclick-circle-img-anim {
+    0% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+}
+
+@keyframes oneclick-circle-img-anim {
+    0% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+}
+
+@keyframes oneclick-circle-anim {
+    0% {
+        opacity: .1;
+        transform: rotate(0deg) scale(.5) skew(1deg)
+    }
+    30% {
+        opacity: .5;
+        transform: rotate(0deg) scale(.7) skew(1deg)
+    }
+    100% {
+        opacity: .1;
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+}
+
+@keyframes oneclick-circle-anim {
+    0% {
+        opacity: .1;
+        transform: rotate(0deg) scale(.5) skew(1deg)
+    }
+    30% {
+        opacity: .5;
+        transform: rotate(0deg) scale(.7) skew(1deg)
+    }
+    100% {
+        opacity: .1;
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+}
+
+@keyframes oneclick-circle-anim {
+    0% {
+        opacity: .1;
+        transform: rotate(0deg) scale(.5) skew(1deg)
+    }
+    30% {
+        opacity: .5;
+        transform: rotate(0deg) scale(.7) skew(1deg)
+    }
+    100% {
+        opacity: .6;
+        transform: rotate(0deg) scale(1) skew(1deg)
+    }
+}
+
+a.hotline-fixed-8-text {
+    position:  absolute;
+    bottom: 0px;
+    width:  100%;
+    text-align:  center;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    left: 0;
+    box-sizing:  border-box;
+    z-index: 2;
+}
+
+a.hotline-fixed-8-text span {
+    color:  #000;
+    background: #ff0 none repeat scroll 0 0;
+    border-radius:  4px;
+    padding: 3px 15px;
+}
+

@@ -1,0 +1,41 @@
+.block-TextImage1 .post-title {
+    position: absolute;
+    width: 94%;
+    text-align: center;
+    bottom: 20px;
+    left: 3%;
+    z-index: 2;
+    color: #fff;
+    font-weight: bold;
+}
+
+.block-TextImage1 .cat-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.block-TextImage1 .wrap {
+    overflow: hidden;
+}
+
+.block-TextImage1 .wrap:before {
+    pointer-events: none;
+    position: absolute;
+    content: '';
+    left: 2%;
+    top: 2%;
+    width: 96%;
+    height: 96%;
+    bottom: 5px;
+    border: 1px solid #FFF;
+    vertical-align: top;
+    background: rgba(0, 0, 0, 0.39);
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.block-TextImage1 img {
+    display: block;
+} 

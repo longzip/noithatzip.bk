@@ -1,0 +1,1 @@
+{foreach from=$posts  item=post}

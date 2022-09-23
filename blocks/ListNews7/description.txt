@@ -1,0 +1,1 @@
+Block hiển thị một đoạn văn bản, bao gồm tiêu đề và nội dung của đoạn văn bản đó

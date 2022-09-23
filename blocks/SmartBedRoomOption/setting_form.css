@@ -1,0 +1,316 @@
+.anchor-title.new{
+	color:red;
+}
+
+	input[type="text"]{
+	margin-bottom: 10px!important;
+	padding: 5px;
+	border: 1px solid #fdfdfd;
+	width: 300px;
+	border-radius: 5px;
+	}
+	.represent{
+			margin:10px;
+			/* font-weight:bold; */
+			margin-left:0;
+			color: #191919;
+			font-size: 13px;
+	}
+	.action{
+			font-size:11px;
+			color: #ff5700;
+			margin: 0px;
+			/* border-right: 1px solid #2d2c2c; */
+			/* padding-right: 30px; */
+			position: absolute;
+			right: 10px;
+			top: 10px;
+	}
+	.menu-item {
+		border: 1px solid #c5c5c5;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		padding: 10px 10px;
+		/* box-shadow: 0px 0px 1px 1px rgb(80, 80, 80); */
+		background: #e2e2e2;
+		position: relative;
+	}
+
+#dialog input[type="text"] {
+	margin: 10px;
+	display: block;
+	width: 38%;
+	float: left;
+}
+
+#dialog .depth{
+	width:40px!important;
+	margin: 10px;
+	display: block;
+	float: left;
+	padding: 2px;
+}
+
+input[type="number"] {
+	width: 48px;
+	padding: 5px;
+	border: 1px solid silver;
+}
+
+.menu-item-item.text {
+	/* width: 330px; */
+	float: left;
+	position:relative;
+	margin-right: 10px;
+}
+
+.search-result {
+	position: absolute;
+	background: #F5F5F5;
+	/* padding: 10px; */
+	top: 30px;
+	left: 0;
+z-index:2;
+}
+
+.search-result-inner {
+	border: 2px solid rgb(250, 194, 16);
+}
+
+.menu-search-item {
+	font-size: 12px;
+	border-bottom: 1px dashed silver;
+	padding: 10px;
+	width: 400px;
+	cursor: pointer;
+	/* line-height: 20px; */
+}
+
+p.serch-result-title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.menu-search-item:hover, .menu-search-item.active {
+	background: rgb(223, 223, 223);
+}
+
+.add_child {
+	color: #181a1b;
+}
+
+.expand {
+	color: green;
+}
+
+h2.col-title {
+	/* text-align: center; */
+	font-size: 16px;
+	margin: 10px 0;
+	font-weight: normal;
+}
+
+.col1-inner {
+	margin-right: 60px;
+}
+
+body {
+	background: #f9f9f9;
+}
+
+.col-content {
+	background: #fff;
+	padding: 15px;
+}
+
+.list-link-item-title {
+	background: #e2e2e2;
+	font-size: 14px;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.list-link-item-content {
+	border: 1px solid #e2e2e2;
+	border-top: 0;
+	padding: 0px 10px;
+	max-height: 200px;
+	overflow: auto;
+	display: none;
+}
+
+.link-item {
+	font-size: 13px;
+	border-bottom: 1px dotted silver;
+	padding: 7px;
+	margin: 7px 0;
+	cursor: pointer;
+	padding-right: 20px;
+	position: relative;
+}
+
+.link-item:hover {
+	background: rgb(221, 239, 248);
+}
+
+.list-link-item {
+	/* margin-bottom: 20px; */
+	box-shadow: 0 0 1px 1px silver;
+}
+
+.link-item:hover i {
+	color: rgb(48, 152, 204);
+	display: inline-block;
+}
+
+.link-item i {
+	font-size: 14px;
+	display: none;
+	position: absolute;
+	right: 5px;
+	top: 8px;
+	top: calc( 50% - 7px );
+}
+
+.menu-item-item.text input[type="text"] {
+	width: 180px;
+}
+
+.col2-inner {
+	background: #fff;
+	padding: 0 10px;
+}
+
+.col2 {
+	width: 40%;
+	float: left;
+	max-height: 100%;
+	overflow: auto;
+}
+.menu-item-item.is_default_display select {
+    padding: 5px 10px;
+    border: 0;
+    background: #fff;
+}
+.col-preview {
+    float: right;
+    width: 55%;
+    background: #fff;
+    position: relative;
+}
+
+div#wrap-menu {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.preview-loading {
+    width: 40px;
+    margin: 40px auto;
+    display: block;
+}
+
+.emty-preview {
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 50px;
+    color: #333;
+    font-style: italic;
+}
+
+.emty-preview b {
+    color: #029db1;
+}
+
+img.smartBedRoomImgPreview {
+    width: 100%;
+}
+.show-media-frame {
+    width: 100px!important;
+    margin: 20px auto;
+    display: block;
+    float: none!important;
+    background: #00BCD4;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.show-media-frame:hover {
+    background: #067988;
+}
+.array_form {
+    padding: 10px 5px;
+}
+
+.add {
+    float: none;
+    padding-left: 20px;
+}
+
+.color {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.color1 {
+    background: #cd7b3a;
+}
+
+.colors {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.color2 {
+    background: #aea7a1;
+}
+
+.color3 {
+    background: #4a6377;
+}
+
+.colorsTitle{
+	position: relative;
+    bottom: 8px;
+    color: #616161;
+		padding-right: 5px
+}
+.color.active {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.openClose {
+ 	background: url(images/openCloseBtn.png);
+ 	width:102px;
+ 	height:57px;
+ 	position: absolute;
+ 	bottom: 20px;
+ 	right: 20px;
+ 	cursor: pointer;
+ 	background-position: 0 0;
+	    background-color: #3331314d;
+}
+.SmartBedRoomOptionForm {
+    position: relative;
+    height: 670px;
+    overflow: hidden;
+    background-size: 1200px 670px!important;
+    background-repeat: no-repeat!important;
+    width: 1200px;
+    margin: auto;
+}
+.openClose:hover {
+    background-position: left bottom;
+}

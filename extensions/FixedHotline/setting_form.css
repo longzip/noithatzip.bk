@@ -1,0 +1,55 @@
+body{
+    font-family:"Open Sans"
+}
+
+.wrap-add{
+    text-align:right;
+    margin-bottom:20px;
+    font-size:20px;
+    color:green;
+}
+
+.wrap-add .add {
+    cursor: pointer;
+}
+
+.wrap-add .add:hover {
+    color: #78cd51;
+}
+
+.field-item {
+    margin: 15px 0;
+}
+
+.new-thread-item {
+    padding: 0 20px;
+    position: relative;
+}
+
+.new-thread-item.new{
+    border:1px solid red;
+}
+
+span.delete-position {
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #666;
+    cursor: pointer;
+}
+
+span.delete-position:hover {
+    color: #d21d1d;
+}
+
+select{
+    display:inline-block;
+    margin-left:20px;
+}
+
+.hotline-fixed {
+    /* position: initial!important; */
+    text-align: initial;
+}
+

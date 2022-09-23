@@ -1,0 +1,38 @@
+.tinymce-form .v-form-title {
+    display: none;
+}
+
+.tinymce-form {
+    margin: 20px auto;
+}
+
+.tinymce-form .v-form-item {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.tinymce-form .v-form-item input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px solid silver;
+    padding: 10px 15px;
+}
+
+.tinymce-form {
+    background: #ecc977;
+    padding: 10px;
+    border-radius: 5px;
+} 
+
+.tinymce-form .v-form-item-title {
+    display: none;
+}
+
+.tinymce-form-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}

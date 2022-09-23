@@ -1,0 +1,29 @@
+.opacity-frame {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    display:none;
+    top: 0;
+    left: 0;
+}
+
+div#media-frame {
+     
+    background: #fff;
+    z-index: 9999;
+}
+
+.frame-action .submit-frame {
+    background: rgb(40, 115, 194);
+    color: #fff;
+}
+
+.submit-frame {
+    margin: 10px 30px;
+}
+
+.frame-action .submit-frame:hover {
+    background: rgb(12, 75, 146);
+} 

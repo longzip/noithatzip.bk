@@ -1,0 +1,19 @@
+.h-menu li{
+	list-style : none;
+	float:left;
+	position:relative
+}
+.h-menu li a{
+	display:block;
+}
+
+.h-menu .sub-menu{
+	display:none;
+	position:absolute;
+	top:40px;
+	left:0px;
+}
+
+.h-menu li:hover .sub-menu{
+	display:block;
+}

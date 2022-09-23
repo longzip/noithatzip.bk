@@ -1,0 +1,22 @@
+/*
+
+.v-form-fixed-2-wrap{padding:25px;position:fixed;width:100%;left:50% !important;top:7% !important;z-index:100;background:rgb(85, 134, 186);box-sizing:border-box;text-align:center;max-width:500px;transform:translateX(-50%);-webkit-transform:translateX(-50%);color:#fff;}
+.v-form-fixed-2 .v-form-title{position:relative;padding-top:45px;}
+.v-form-fixed-2 .v-form-title:before{content:"";position:absolute;top:0;left:50%;background:url(../images/internet-download-symbol.png) no-repeat;background-size:40px;width:50px;height:50px;transform:translateX(-50%);-webkit-transform:translateX(-50%);}
+.v-form-fixed-2 .wrap-v-form{border:0px dashed rgb(224, 224, 224) !important;padding:0 !important;}
+.v-form-fixed-2 .v-form-item-title{display:block !important;float:left;margin-bottom:3px;}
+.v-form-fixed-2 .form-text{border:1px solid #fff;background:#fff;padding:10px;width:100%;box-sizing:border-box;max-width:100% !important;}
+.v-form-fixed-2 .v-form-item.v-form-item-submit input{background:#fff;border:2px solid #ccc;width:32%;padding:10px 50px;font-weight:bold;text-transform:uppercase;color:#fff;margin:auto;display:block;border-radius:3px;color:#1b4145;}
+.v-form-fixed-2 span.v-form-require{color:#fc0000;}
+.v-form-fixed-2 .v-form-description{color:#fff;line-height:20px;}
+@media only screen and (max-width:700px){.v-form-fixed-2-wrap{width:90%;padding:10px 25px!important;position:fixed;left:50% !important;top:7%!important;z-index:100;background:rgb(85, 134, 186);box-sizing:border-box;text-align:center;max-width:500px;transform:translateX(-50%)!important;}
+.v-form-fixed-2 .v-form-item.v-form-item-submit input{background:#fff;border:2px solid #ccc;width:auto;padding:10px 50px;margin:10px 0px!important;font-weight:bold;font-size:16px;text-transform:uppercase;color:#fff;margin:auto;display:block;border-radius:3px;color:#1b4145;text-align:center;margin:0px auto!important;}
+.v-form-fixed-2 .wrap-v-form{border:3px dashed rgb(224, 224, 224);}
+.v-form-fixed-2 .v-form-item{margin:5px 0!important;}
+.v-form-fixed-2 .v-form-description img{display:none;}
+.v-form-fixed-2 .v-form-description span{font-size:20px!important;}
+.v-form-description{margin:10px 0 0 0;text-align:justify;}
+}
+.v-TextImage h2{background:none;padding-left:0;margin:0;}
+
+*/

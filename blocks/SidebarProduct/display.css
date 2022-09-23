@@ -1,0 +1,20 @@
+.SidebarProduct-item-image a {
+    display: block;
+    margin-right: 15px;
+}
+
+.SidebarProduct-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.SidebarProduct-item-text a {
+    color: #666;
+    text-decoration: none;
+}
+
+.SidebarProduct-item .list-price .price {
+    color: #da1818;
+    font-weight: bold;
+    font-size: 12px;
+}

@@ -1,0 +1,46 @@
+
+.hotline-fixed-5 {
+    position: fixed;
+    height: 32px;
+    line-height: 32px;
+    padding: 2px 20px;
+    animation: bounce 5s infinite;
+    cursor:pointer;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+
+    z-index: 9;
+    border-radius: 35px;
+}
+
+
+
+.hotline-fixed.bottom_center {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+}
+
+ 
+.hotline-fixed-5 a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.hotline-fixed-5 img{
+    width: 40px;    
+    position: absolute;
+}
+
+.hotline-fixed-5 a:before {
+    content: "\f098";
+    /* display: inline-block; */
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* padding-left: 10px; */
+}

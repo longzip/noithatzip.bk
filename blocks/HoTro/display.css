@@ -1,0 +1,39 @@
+.HoTro-avatar {
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.HoTro-text {
+    width: 65%;
+    box-sizing: border-box;
+}
+
+.HoTro-name {
+    color: #D63240;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.HoTro-item i {
+    padding-right: 5px;
+}
+
+.HoTro-text {
+    line-height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.HoTro-other .HoTro-item {
+    /* width: 50%; */
+    /* font-size: 11px; */
+    float: left;
+}
+
+.HoTro-sdt {
+    color: #037c07;
+}
+
+.HoTro-skype {
+    color: #337AB7;
+}

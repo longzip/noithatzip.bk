@@ -1,0 +1,16 @@
+.form-group {
+    margin: 10px 0 35px 10px;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 3px 5px;
+    width: 500px;
+    border: 1px solid silver;
+}
+
+select {
+    padding: 3px 5px;
+    border: 1px solid silver;
+    width: 400px;
+}

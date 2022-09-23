@@ -1,0 +1,32 @@
+*:focus{outline:none}
+
+.text{
+    border: 1px solid #d0d0d0;
+    padding: 9px 10px;
+    min-width: 500px;
+}
+
+.edit-option-title {
+    background: #ddeff8;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana;
+    margin-bottom: 50px;
+}
+
+body {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.edit-option-content {
+    padding: 0 50px;
+    text-align: center;
+}
+
+label{
+    display:block;
+    margin-bottom:20px;
+}
+
+ 

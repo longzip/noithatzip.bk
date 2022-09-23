@@ -1,0 +1,145 @@
+ 
+div#main-content {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing:  border-box;
+    max-width: 400px;
+}
+
+body {
+    background: rgb(244, 244, 244);
+    background: url(../images/login-bg.jpg);
+    font-family: "Open Sans", tahoma;
+    font-size: 14px;
+}
+
+.h1-title {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.option-content {
+}
+
+.option-content input[type="text"], .option-content input[type="password"] {
+    border: 1px solid rgb(218, 218, 218);
+    padding: 5px 10px;
+    display:  block;
+    border-radius: 3px;
+}
+
+.option-content label, .option-content input {
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing:  border-box;
+}
+
+.forgot-password a {
+    font-size: 11px;
+    color: #333;
+}
+
+input#submit {
+    background: rgb(7, 158, 223);
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px;
+    width: 100px;
+    font-family: "segoeui", tahoma;
+    font-weight:  bold;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    float: right;
+    margin-top: 10px;
+}
+
+.error-noti li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.error-noti {
+    background: rgb(229, 192, 3);
+    padding: 10px;
+    line-height: 20px;
+    margin: 10px 0;
+    border-radius: 1px;
+}
+.field.fl {
+    float:  none;
+}
+
+div#login {
+    float:  none;
+}
+ 
+ .guider-text {
+    padding: 5px 10px;
+    border: 2px dotted #f9c28a;
+    margin: 10px 0;
+    font-size: 14px;
+    text-align:  justify;
+    line-height: 17px;
+    background: #ffd99f;
+}
+
+.guider-text p {
+    margin-bottom: 7px;
+}
+
+form {
+    background:  #fff;
+    padding: 10px 15px;
+    border-radius:  5px;
+    box-shadow: 0 0 1px 2px #ececec;
+}
+
+.h1-title span {
+    position:  relative;
+}
+
+.h1-title span:before, .h1-title span:after {
+    content:  "";
+    position:  absolute;
+    top: 14px;
+    left:  -50px;
+    width: 35px;
+    height:  2px;
+    background: #d8d8d8;
+    border-radius: 5px;
+}
+
+.h1-title span:after {
+    left:initial;
+    right:-50px;
+}
+
+input#submit:hover {
+    background: #0c82b5;
+}
+
+.change-password-success a {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    text-decoration: none;
+    width: 200px;
+    background: #439cc1;
+    border-radius: 5px;
+    padding: 9px 10px;
+    box-sizing: border-box;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.change-password-success a:hover {
+    background: #163c53;
+}

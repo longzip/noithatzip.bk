@@ -1,0 +1,35 @@
+/* Commonn */
+.list-style li{
+    margin: 5px 0;
+    margin-left: 15px;
+    list-style:none;
+    position: relative;
+    padding-left: 20px;
+}
+/* Commonn */
+
+.list-style-1 li:before{
+    font-family:FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f00c";
+    color: #5aa6c6;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+.list-style-2 li:before{
+    font-family:FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f046";
+    color: #5aa6c6;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}

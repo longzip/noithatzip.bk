@@ -1,0 +1,75 @@
+
+
+.hotline-fixed-2 {
+    color: #fff;
+    border-radius: 70px;
+    padding: 5px 15px;
+    position: fixed;
+    box-sizing: border-box;
+    transition:all 0.4s;
+    -webkit-transition:all 0.4s;
+    z-index:9;
+    line-height: 20px;
+}
+
+.hotline-fixed.bottom_left {
+    bottom: 15px;
+    left: 15px;
+}
+
+.hotline-fixed.bottom_right {
+    bottom: 15px;
+    right: 15px;
+}
+
+.hotline-fixed.top_left {
+    top: 15px;
+    left: 15px;
+}
+
+.hotline-fixed.top_right {
+    top: 15px;
+    right: 15px;
+}
+
+.hotline-fixed.bottom_center {
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+}
+
+
+
+.hotline-fixed-2-text {
+    float: left;
+    padding: 0px 5px;
+}
+
+
+.hotline-fixed-2-icon i {
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+.hotline-fixed-2 a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hotline-fixed-2-icon {
+    float: left;
+}

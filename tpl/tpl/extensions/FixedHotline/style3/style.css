@@ -1,0 +1,65 @@
+.hotline-fixed-3 {
+    color: #fff;
+    width: 189px;
+    padding: 10px 20px;
+    position: fixed;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    z-index: 9;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+.hotline-fixed-3.bottom_left {
+    background: url(bg_left.png) 0 no-repeat;
+}
+
+.hotline-fixed-3.bottom_right {
+    background: url(bg_right.png) 0 no-repeat;
+}
+
+.hotline-fixed-3.top_left {
+    padding-left: 45px;
+    background: url(bg_left.png) 0 no-repeat;
+}
+
+.hotline-fixed-3.top_right {
+    background: url(bg_right.png) 0 no-repeat;
+}
+
+.hotline-fixed-3.bottom_center {
+    background: url({bg_right.png) 0 no-repeat;
+}
+
+.hotline-fixed-3.bottom_left, .hotline-fixed-3.top_left{
+    padding-left: 45px;
+}
+
+.hotline-fixed-3.bottom_left .hotline-fixed-3-text-title a,
+.hotline-fixed-3.top_left .hotline-fixed-3-text-title a{
+    padding-top:7px;
+}
+
+.hotline-fixed-3-text {
+    display: inline-block;
+}
+
+.hotline-fixed-3-text-hotline{
+    margin-bottom:5px;
+}
+
+ 
+
+.hotline-fixed-3 a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hotline-fixed-3-text-title a {
+    font-size: 13px;
+    padding-top: 3px;
+    display: block;
+}

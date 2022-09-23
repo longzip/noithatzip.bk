@@ -1,0 +1,13 @@
+input[type="text"], textarea {
+    padding: 3px 5px;
+    border: 1px solid silver;
+    width: 600px;
+}
+
+textarea {
+    height: 70px;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}

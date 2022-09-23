@@ -1,0 +1,18 @@
+.SidebarNews-item-image a {
+    display: block;
+    margin-right: 15px;
+}
+
+.SidebarNews-item {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted silver;
+    padding-bottom: 10px;
+}
+
+.SidebarNews-item-text a {
+    color: #666;
+    text-decoration: none;
+}
+.SidebarNews-item:last-of-type {
+    border-bottom: 0;
+}

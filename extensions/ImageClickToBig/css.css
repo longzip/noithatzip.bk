@@ -1,0 +1,7 @@
+.v-tabs-content-item{
+    display:none;
+}
+
+.v-tabs-content-item.active{
+    display:block;
+}

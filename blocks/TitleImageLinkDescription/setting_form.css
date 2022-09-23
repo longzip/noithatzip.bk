@@ -1,0 +1,53 @@
+input[type="text"], textarea {
+    padding: 3px 5px;
+    border: 1px solid silver;
+    width: 600px;
+}
+
+textarea {
+    height: 70px;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}
+
+.form-group {
+    margin: 10px 0 35px 10px;
+}
+
+input {
+    padding: 3px 5px;
+    width: 500px;
+    border: 1px solid silver;
+}
+
+select {
+    padding: 3px 5px;
+    border: 1px solid silver;
+    width: 400px;
+}
+
+input[type="button"]{
+    width:100px;
+    background: #46b8da;
+    border:0;
+    padding: 8px 0;
+    color:#fff;
+    cursor:pointer;
+    border-radius: 3px;
+    position: relative;
+    left: 20px;
+}
+
+input[type="button"]:hover {
+    background: rgb(41, 152, 185);
+}
+
+.form-group label {
+    width: 100%!important;
+}
+
+img {
+    max-height: 120px;
+}

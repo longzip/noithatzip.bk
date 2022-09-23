@@ -1,0 +1,210 @@
+// If true, start function. If false, listen for INIT.
+window.onload = function() {
+  if (Enabler.isInitialized()) {
+    enablerInitHandler();
+  } else {
+    Enabler.addEventListener(studio.events.StudioEvent.INIT, enablerInitHandler);
+  }
+}
+
+function enablerInitHandler() {
+  // Start polite loading, or start animation,
+  // load in your image assets, call Enabler methods,
+  // and/or include other Studio modules.
+}
+if (Enabler.isInitialized()) {
+  init();
+} else {
+  Enabler.addEventListener(studio.events.StudioEvent.INIT, init);
+}
+// Runs when Enabler is ready.
+function init() {
+  if (Enabler.isPageLoaded()) {
+    showAd();
+  } else {
+    Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED, showAd);
+  }
+};
+
+// Runs when the page is completely loaded.
+function showAd(){
+  // Add your code to load creative assets or begin creative animation.
+};
+//If true, start function. If false, listen for VISIBLE.
+//So your pageLoadedHandler function will look like the following:
+
+function pageLoadedHandler() {
+  if (Enabler.isVisible()) {
+    adVisibilityHandler();
+  } else {
+    Enabler.addEventListener(studio.events.StudioEvent.VISIBLE,
+    adVisibilityHandler);
+  }
+}
+
+function adVisibilityHandler() {
+    // Load in additional assets or start the animation/video
+}
+
+
+
+var bannerboy = bannerboy || {};
+bannerboy.main = function() {
+
+	var width = 728;
+	var height = 90;
+	var border = bannerboy.createElement({width: width, height: height, border: 'solid 1px #000000', boxSizing: 'border-box', overflow: "hidden", parent: document.body});
+	var banner = bannerboy.createElement({id: "banner", width: width, height: height, left: -border.get("borderWidth"), top: -border.get("borderWidth"), backgroundColor: "#fff", cursor: "pointer", parent: border});
+
+	var images = [
+		"txt_1.png",
+		"txt_2.png", 
+		"txt_3.png", 
+		"man_3_shoulder.png", 
+		"man_3_arm.png", 
+		"man_3_body.png", 
+		"man_2_shoulder.png", 
+		"man_2_arm.png", 
+		"man_2_body.png", 
+		"man_1.png", 
+		"logo.png", 
+		"icon_gmail.png", 
+		"icon_documents.png", 
+		"icon_gdrive.png", 
+		"icon_calendar.png", 
+		"logo_big.png", 
+		"cta_txt.png", 
+	];
+
+	bannerboy.preloadImages(images, function() {
+
+		/* Create elements
+		================================================= */
+
+		// Begin Export Script
+
+		var txt_1 = bannerboy.createElement({backgroundImage: "txt_1.png", left: 190, top: 26, retina: true, parent: banner});
+		var txt_2 = bannerboy.createElement({backgroundImage: "txt_2.png", left: 190, top: 25, retina: true, parent: banner});
+		var animation_container = bannerboy.createElement({left: 436, top: -10, width: 145, height: 154, scale:.75, parent: banner});
+			var man_3 = bannerboy.createElement({left: 88, width: 57, height: 152, parent: animation_container});
+				var man_3_shoulder_container = bannerboy.createElement({left: 28, width: 29, height: 51, parent: man_3});
+					var man_3_shoulder = bannerboy.createElement({backgroundImage: "man_3_shoulder.png", top: 37, retina: true, parent: man_3_shoulder_container});
+					var man_3_arm_container = bannerboy.createElement({left: 10, width: 19, height: 46, parent: man_3_shoulder_container});
+						var man_3_arm = bannerboy.createElement({backgroundImage: "man_3_arm.png", retina: true, parent: man_3_arm_container});
+						var man_3_arm_axis = bannerboy.createElement({backgroundColor: "#ed1f24", left: 15, top: 43, width: 1, height: 1, parent: man_3_arm_container});
+					var man_3_shoulder_axis = bannerboy.createElement({backgroundColor: "#ed1f24", left: 6, top: 45, width: 1, height: 1, parent: man_3_shoulder_container});
+				var man_3_body = bannerboy.createElement({backgroundImage: "man_3_body.png", top: 14, retina: true, parent: man_3});
+			var man_2 = bannerboy.createElement({top: 13, width: 93, height: 142, parent: animation_container});
+				var man_2_shoulder_container = bannerboy.createElement({width: 64, height: 46, parent: man_2});
+					var man_2_shoulder = bannerboy.createElement({backgroundImage: "man_2_shoulder.png", left: 24, top: 26, retina: true, parent: man_2_shoulder_container});
+					var man_2_arm_container = bannerboy.createElement({width: 32, height: 46, parent: man_2_shoulder_container});
+						var man_2_arm = bannerboy.createElement({backgroundImage: "man_2_arm.png", retina: true, parent: man_2_arm_container});
+						var man_2_arm_axis = bannerboy.createElement({backgroundColor: "#ed1f24", left: 29, top: 40, width: 1, height: 1, parent: man_2_arm_container});
+					var man_2_shoulder_axis = bannerboy.createElement({backgroundColor: "#ed1f24", left: 49, top: 34, width: 1, height: 1, parent: man_2_shoulder_container});
+				var man_2_body = bannerboy.createElement({backgroundImage: "man_2_body.png", left: 45, top: 4, retina: true, parent: man_2});
+			var man_1 = bannerboy.createElement({backgroundImage: "man_1.png", left: 42, top: 43, retina: true, parent: animation_container});
+		var logo_gsuite = bannerboy.createElement({backgroundImage: "logo_big.png", left: 28, top: 20, retina: true, parent: banner});
+		var lockup_container = bannerboy.createElement({ left: 63, top: 32, width: 117, height: 135, parent: banner});
+			var icon_gmail = bannerboy.createElement({backgroundImage: "icon_gmail.png", left: -36, top:15, retina: true, parent: lockup_container});
+			var icon_documents = bannerboy.createElement({backgroundImage: "icon_documents.png",  left: -10, top: 12, retina: true, parent: lockup_container});
+			var icon_gdrive = bannerboy.createElement({backgroundImage: "icon_gdrive.png", left: 28, top: 12, retina: true, parent: lockup_container});
+			var icon_calendar = bannerboy.createElement({backgroundImage: "icon_calendar.png", left: 08, top: 12, retina: true, parent: lockup_container});
+		var logo_gsuite_big = bannerboy.createElement({backgroundImage: "logo.png", left: 525, top: 5, retina: true, parent: lockup_container});
+		var cta = bannerboy.createElement({left: 425, top:27, width: 127, height: 40, parent: banner});
+			var cta_base = bannerboy.createElement({backgroundColor: "#4285f3", width: 130, height: 39, parent: cta});
+			var cta_txt = bannerboy.createElement({backgroundImage: "cta_txt.png", left: 19, top: 15, retina: true, parent: cta});
+			var txt_3 = bannerboy.createElement({backgroundImage: "txt_3.png", left: -250, top: -2, retina: true, parent: cta});
+
+		cta_base.set({borderRadius: 2});
+		
+
+		// !End Export Script
+
+		/* Initiate
+		================================================= */
+
+		interaction();
+		// animation_container.set({scale: .75, left: -35, top: 200})
+
+		man_2.set({transformOrigin: 'bottom right'})
+		man_2_shoulder_container.set({transformOrigin: man_2_shoulder_axis.get("left") + 'px ' + man_2_shoulder_axis.get("top") + 'px'})
+		man_2_arm_container.set({transformOrigin: man_2_arm_axis.get("left") + 'px ' + man_2_arm_axis.get("top") + 'px'})
+		man_2_shoulder_axis.set({opacity: 0})
+		man_2_arm_axis.set({opacity: 0})
+
+		man_3.set({transformOrigin: 'bottom left'})
+		man_3_shoulder_container.set({transformOrigin: man_3_shoulder_axis.get("left") + 'px ' + man_3_shoulder_axis.get("top") + 'px'})
+		man_3_arm_container.set({transformOrigin: man_3_arm_axis.get("left") + 'px ' + man_3_arm_axis.get("top") + 'px'})
+		man_3_shoulder_axis.set({opacity: 0})
+		man_3_arm_axis.set({opacity: 0})
+
+		/* Animations
+		================================================= */
+
+		lockup_container.in = new BBTimeline()
+			.staggerFrom([icon_gmail, icon_documents, icon_gdrive, icon_calendar].reverse(), 1, {cycle: {x: function (i) { return -3 * bannerboy.utils.map((i+1), 1, 5, 5, 1); }}, ease: Power2.easeOut}, 0.2)
+			.staggerFrom([icon_gmail, icon_documents, icon_gdrive, icon_calendar].reverse(), 0.3, {opacity: 0}, 0.2)
+			.offset(0.5)
+			.from(logo_gsuite_big, 1, {x: 10, opacity: 0});
+
+		man_2.wave = new BBTimeline({paused: true, repeat: -1, yoyo: true})
+			.to([man_2_shoulder_container, man_2_arm_container], .5, {rotation: 0, ease: Sine.easeInOut})
+
+		man_3.wave = new BBTimeline({paused: true, repeat: -1, yoyo: true})
+			.to([man_3_shoulder_container, man_3_arm_container], .7, {rotation: 10, ease: Sine.easeInOut})
+
+		/* Main Timeline
+		================================================= */
+
+		var intro_speed = .5
+
+		var tl = new BBTimeline()
+			.offset(.25)
+			.add(lockup_container.in)
+			.fromTo([man_2_shoulder_container, man_2_arm_container], intro_speed, {rotation: 0}, {rotation: 15, onComplete: man_2.wave.resume, onCompleteScope: man_2.wave})
+			.from([man_3_shoulder_container, man_3_arm_container], .01, {rotation: 0, onComplete: man_3.wave.resume, onCompleteScope: man_3.wave})
+			.offset(1)
+			.from(txt_1, .5, {opacity: 0, ease: Power1.easeInOut})
+			.offset(4.5)
+			.to(txt_1, 0.5, {opacity: 0})
+		.offset(.3)
+			.from(txt_2, .5, {opacity: 0, ease: Power1.easeInOut})
+			.offset(4.5)
+			.to([txt_2, animation_container], 0.5, {opacity: 0})
+			.offset(.75)
+			.from(cta, .5, {opacity: 0, scale: 1})
+			.offset(3)
+			.loop(1)
+
+		TweenMax.delayedCall(12, function() {
+			man_2.wave.pause()
+			man_3.wave.pause()
+		})
+
+
+		scrubber(tl);
+		/* Interactions
+		================================================= */
+				function interaction() {
+			// click logic goes here
+			banner.onclick = function() {
+				Enabler.exit("BackgroundExit");
+			};
+		}
+		
+
+		/* Helpers
+		================================================= */
+
+		/* Scrubber
+		================================================= */
+
+		function scrubber(tl) {
+			if (window.location.origin == "file://") {
+				bannerboy.include(["../bannerboy_scrubber.min.js"], function() {
+					if (bannerboy.scrubberController) bannerboy.scrubberController.create({"main timeline": tl});
+				});
+			}
+		}
+	});
+};

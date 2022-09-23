@@ -1,0 +1,45 @@
+.MarqueeNews li {
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+}
+
+.MarqueeNews li a {
+    text-decoration: none;
+}
+
+.MarqueeNews {
+    position: relative;
+    background: #ececec;
+    padding: 10px;
+}
+
+.MarqueeNews .block-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    background: #8e1e1c;
+    z-index: 2;
+    color: #fff;
+}
+
+.MarqueeNews .block-title:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 10px;
+    content: "\f0a1";
+}
+
+a.MarqueeNews-cat-link {
+    background: #8e1e1c;
+    padding: 0 7px;
+    color: #fff;
+    margin-right:5px;
+}

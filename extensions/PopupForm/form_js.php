@@ -1,0 +1,1 @@
+<script src="<?php echo CDN_DOMAIN ?>/inc/js/form.js"></script>

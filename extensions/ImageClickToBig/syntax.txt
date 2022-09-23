@@ -1,0 +1,26 @@
+<div class="v-tabs">
+   <div class="v-tabs-nav">
+      <div class="v-tabs-nav-inner">
+         <div class="v-tabs-nav-item" class="v-tabs-nav-item">
+            Nav tab #1                                
+         </div>
+         <div class="v-tabs-nav-item" class="v-tabs-nav-item">
+            Nav tab #2                             
+         </div>
+         <div class="v-tabs-nav-item" class="v-tabs-nav-item">
+            Nav tab #3                              
+         </div>
+      </div>
+   </div>
+   <div class="v-tabs-content">
+      <div class="v-tabs-content-item" >
+         Nội dung tab #1
+      </div>
+      <div class="v-tabs-content-item" >
+         Nội dung tab #2
+      </div>
+      <div class="v-tabs-content-item" >
+         Nội dung tab #3
+      </div>
+   </div>
+</div>

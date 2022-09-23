@@ -1,0 +1,1 @@
+﻿Block hiển thị ảnh và chữ nằm ngang cạnh nhau

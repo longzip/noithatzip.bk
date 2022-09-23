@@ -1,0 +1,29 @@
+ .v-toggle-menu{
+     display:none;
+ }
+ 
+
+@media only screen and (max-width:991px)
+{
+    #main-menu{
+        display:none;
+    }
+    .v-toggle-menu{
+        display:block;
+        text-align: right;
+        padding: 5px 10px;
+        color: #fff;
+        font-size: 19px;
+        margin-bottom: 15px;
+        cursor:  pointer;
+    }
+    
+    #main-menu li{
+        display:block!important;
+        float:none!important;
+    } 
+    
+    .v-toggle-menu {
+        background: #d71921;
+    }
+}

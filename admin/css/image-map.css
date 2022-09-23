@@ -1,0 +1,120 @@
+body{
+	font-family:arial
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-info:hover{
+    background: #2185a2;
+}
+
+.wrap-svg-map {
+    position: relative;
+    width: 752px;
+    height: 402px;
+}
+
+.wrap-svg-map img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.svg-map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: crosshair;
+}
+
+.guider {
+    line-height: 21px;
+    font-size: 14px;
+    width: 14%;
+    float: right;
+    margin-right: 1%;
+}
+
+.guider ul{
+    background: #eceaea;
+    padding: 10px;
+     border-radius: 3px;
+}
+
+.guider li {
+    list-style-position: inside;
+}
+
+ .anh-tong-quan {
+    font-size: 12px;
+}
+
+
+.wrap-wrap {
+    width: 84%;
+}
+
+.preview-image {
+    margin-top: 10px;
+}
+
+.preview-image p {
+    text-align: center;
+    color: #ff9b00;
+}
+
+.preview-image img {
+    width: 100%;
+}
+
+div#button-reset .button {
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+div#wrap-svg-map-1 polygon {
+    cursor: pointer;
+}
+
+q {}
+
+.first-guider {
+    font-size: 13px;
+    margin: 20px 10px;
+    margin-top: 0;
+    color: #098eb5;
+}
+
+.guider li {
+    list-style-position: initial;
+    margin-left: 20px;
+}

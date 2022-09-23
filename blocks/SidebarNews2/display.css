@@ -1,0 +1,19 @@
+.SidebarNews2-item-image a {
+    display: block;
+}
+
+.SidebarNews2-item {
+    margin-bottom: 20px;
+    /* border-bottom: 1px dotted silver; */
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.SidebarNews2-item-text a {
+    color: #131212;
+    text-decoration: none;
+}
+.SidebarNews2-item img {
+    width: 100%;
+}
+

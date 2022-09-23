@@ -1,0 +1,90 @@
+@import url("vos-responsive.css");
+/* @import url("reset.css"); */
+@import url("tinymce-form.css");
+
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right
+}
+
+.clear{
+    clear:both;
+    display:block;
+}
+ 
+
+.other-post {
+    overflow: auto;
+    margin: 20px 0;
+    background: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0 0 1px 1px silver;
+    -webkit-box-shadow: 0 0 1px 1px silver;
+}
+
+.other-post img {
+    display: block;
+    width: 85%;
+}
+
+.other-post-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.other-post-des {
+    font-size: 13px;
+}
+
+table{
+    width:100%;
+    box-sizing: border-box;
+}
+
+ 
+img{
+    max-width:100%;
+}
+.tinymce-form{
+    max-width:800px;
+    margin:auto;
+}
+
+
+div#tinymce-add-block {
+    text-indent: -980px;
+    width: 28px;
+    height: 28px;
+    overflow:  hidden;
+}
+
+div#tinymce-add-block .core-add-block {
+    color: #3bbf19;
+    font-weight: bold;
+    text-align: center;
+    /* margin: 10px auto; */
+    font-size: 12px;
+    font-family: Tahoma;
+    background: url(../images/core-add-block.ico) center no-repeat;
+    background-size: 15px;
+    cursor: pointer;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    position:relative;
+    z-index: 1;
+    width:  25px;
+    height: 25px;
+    margin-top: 3px!important;
+}
+
+input{
+    border:1px solid silver
+}
+
+.clearfix:after{clear:both;content:"";display:block;width:0px;height:0px;}
+

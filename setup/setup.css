@@ -1,0 +1,97 @@
+*{
+    font-family:arial, tahoma;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+.clear{
+    display:block;
+    clear: both;
+}
+
+body {
+    background: #EEEEEE;
+}
+
+input[type="text"], input[type="password"]{
+    padding: 5px;
+    float:right;
+    border: 1px solid silver;
+    width: 300px;
+}
+
+
+input{
+    padding: 5px;
+    float:right;
+    border: 1px solid silver;
+    width: 300px;
+}
+
+
+#setup-form{
+    margin: auto;
+    width: 520px;
+    display:block;
+    background: #fff;
+    padding: 20px 70px;
+}
+
+h1 {
+    font-size: 16px;
+    color: #2268FF;
+    font-family: verdana;
+    margin-bottom: 45px;
+    font-weight: normal;
+}
+.form-item {
+    margin: 10px 0;
+    line-height: 40px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: rgb(39, 139, 206);
+    border: 1px solid rgb(0, 92, 255);
+}
+input[type="submit"]:hover {
+    background: rgb(5, 106, 216);
+    cursor: pointer;
+}
+
+hr {
+    background: red;
+    border: 1px solid #E9E7E7;
+    border-bottom: 0px solid;
+    display: block;
+    margin: 30px 0;
+}
+
+.noti{
+    padding:10px;
+    font-family: verdana, arial;
+    font-size: 12px;
+}
+
+.error-noti{
+    background: rgba(250, 177, 84, 0.44);
+    
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+p.success-noti {
+    background: #dff0d8;
+}
+
+.error-noti li {
+    margin-left: 20px;
+}
+
+.error-noti-item-name {
+    color: rgb(11, 178, 178);
+}

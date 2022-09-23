@@ -1,0 +1,30 @@
+input[type="text"], textarea {
+    padding: 3px 5px;
+    border: 1px solid silver;
+    width: 600px;
+}
+
+textarea {
+    height: 70px;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}
+
+.parameter-col-title .text{
+    padding:5px 10px;
+    border:1px solid silver;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.parameter-col-title 
+{
+    margin-bottom:10px;
+}
+
+.wrap-col{
+    padding:20px;
+}
+

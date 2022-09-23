@@ -1,0 +1,39 @@
+
+.hotline-fixed-1 {
+    position: fixed;
+    height: 40px;
+    /* width: 200px; */
+    line-height: 40px;
+    border-radius: 3px;
+    padding: 0 10px;
+    background-size:100%;
+    cursor:pointer;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    z-index: 9;
+}
+
+
+
+.hotline-fixed.bottom_center {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+}
+
+ 
+.hotline-fixed-1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 50px;
+    display: inline-block;
+    letter-spacing:1px;
+    font-family: sans-serif;
+}
+.hotline-fixed-1 img{
+    width: 40px;    
+    position: absolute;
+}

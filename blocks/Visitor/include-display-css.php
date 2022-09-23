@@ -1,0 +1,1 @@
+<link rel="stylesheet" type="text/css" href="<?php echo CDN_DOMAIN ?>/blocks/<?php echo basename(dirname(__FILE__)); ?>/display.css" media="all" /> 

@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	max-width:100%;
+}
+
+.full{
+	width:1000px;
+	margin:auto;
+}
+
+a:hover{
+	text-decoration: underline!important;
+}
+
+.wrap-full{
+	width:100%;
+	min-width:1000px;
+	margin:auto; 
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 15px;
+	color: #545353;
+	font-size: 13px;
+}
+
+div#header h1 {
+    /* text-transform: uppercase; */
+    font-size: 23px;
+    color: #686767;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid rgb(213, 207, 207); */
+}
+
+div#header-des {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D3D0D0;
+    margin-bottom: 60px;
+}
+
+div#header-des a {
+    text-decoration: none;
+    color: #da3114;
+    font-weight: bold;
+}
+
+div#content h2 {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+table td {
+    border: 1px solid silver;
+    padding: 10px;
+    font-size: 11px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ 
+
+table th {
+    text-align: left;
+    color: rgb(218, 55, 56);
+    font-size: 14px;
+    padding: 5px;
+    font-weight: normal;
+}
+
+
+
+table td.name a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(0, 81, 200);
+}
+
+td.update-time {
+    font-size: 12px;
+}
+
+div#bread-crumb a {
+    font-weight: bold;
+    color: rgb(79, 81, 210);
+    /* text-decoration: none; */
+    margin-bottom: 35px;
+    display: block;
+}

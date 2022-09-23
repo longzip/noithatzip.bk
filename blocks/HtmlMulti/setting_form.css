@@ -1,0 +1,61 @@
+.html-multi-item .title {
+    display: block;
+    width: 15%;
+    float: left;
+    font-weight: normal;
+}
+
+.html-multi-item .value {
+    width: 80%;
+    display: block;
+    float: left;
+}
+
+.html-multi-item {
+    margin: 15px;
+    border: 1px dotted #888888;
+    padding: 10px 50px;
+    background: #f7f7f7;
+}
+
+.html-multi-item .value .text {
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+h2.col-title {
+    margin: 0 10px;
+    font-size:18px;
+}
+
+.remove-text-field {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.expend-html {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 22px!important;
+    padding: 0 10px;
+}
+
+.expend-html:hover {
+    color: #ea2727;
+}
+
+.html-content{
+    display:none;
+}
+
+.expend-html.up {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    top: 8px;
+}

@@ -1,0 +1,137 @@
+.tpl {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: verdana;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dirbox {
+    padding:5px;
+    padding-left: 30px;
+    margin: 0px 0;
+    font-family:verdana;
+    font-size:12px;
+    cursor:pointer;
+}
+
+.dirbox:hover{
+    background-color: rgb(241, 242, 247)!important;
+}
+
+.dirbox.folder {
+    background:url(../images/folder-icon.png) no-repeat 5px center;
+    background-size:20px;
+}
+
+.dirbox.file {
+    background:url(../images/file-icon.png) no-repeat 5px center;
+    background-size:20px;
+}
+
+div#tpl .nav {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+div#tpl .nav .arrow {
+    
+    padding:10px;
+    background-size: 22px!important;
+    cursor:pointer;
+}
+div#tpl .nav .backable {
+    background: url(../images/back.png) 0 no-repeat;
+}
+
+div#tpl .nav .forwardable {
+    background: url(../images/forward.png) 0 no-repeat;
+}
+div#bread-crumb {
+    padding: 5px 10px;
+    background: rgb(241, 242, 247);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.bread-crumb-item {
+    cursor: pointer;
+    padding: 5px;
+    color: rgb(36, 177, 195);
+}
+
+
+.bread-crumb-item.current{
+    color:#333;
+    cursor: auto;
+}
+
+div#bread-crumb .arrow {
+    padding: 0 10px;
+     
+}
+
+.bread-crumb-item:hover {
+    text-decoration: underline;
+}
+
+.bread-crumb-item.current:hover {
+    text-decoration: none;
+}
+
+div#dir-action {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:none;
+    z-index:2;
+    padding: 10px;
+    background: rgb(136, 144, 147);
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 25px;
+    border-radius: 5px;
+}
+
+.dirbox:hover .dir-action{
+    visibility:visible;
+}
+
+.dir-action {
+    padding: 0 10px;
+    font-size: 10px;
+    visibility: hidden;
+}
+
+.dir-action:hover{
+    text-decoration: underline;
+}
+
+#file-content-textarea{
+    width:98%;
+    padding:1% 1%;
+    margin-bottom:20px;
+    border: 1px solid silver;
+    height:300px;
+}
+
+div#file-content .noti {
+    background: rgb(245, 225, 208);
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-bottom:15px;
+}
+
+#save-file-content{
+    background: rgb(12, 178, 121);
+    
+    padding: 5px 15px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#save-file-content:hover {
+    background: rgb(8, 145, 98);
+}

@@ -1,0 +1,20 @@
+.block-search .block-title {
+	text-align: center;
+    background: #ce4c06;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+	margin-bottom:10px;
+ }
+ .block-search input{
+	width: 90%;
+    float: left;
+    box-sizing: border-box;
+ }
+ .block-search .submit{
+	 padding: 6px;
+    width: 10%;
+    box-sizing: border-box;
+ }

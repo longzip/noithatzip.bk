@@ -1,0 +1,197 @@
+.chatbox {
+    margin: 10px;
+    padding: 10px;
+    width: 715px;
+    position: relative;
+}
+
+.chatbox .content {
+    min-height: 200px;
+    border: 1px solid rgb(178, 178, 178);
+    font-size: 12px;
+    padding: 5px;
+    color: #5E5D5D;
+    overflow: auto;
+    max-height: 400px;
+}
+
+.chatbox .input {
+    width: 189px;
+    padding: 3px 10px;
+    margin: 5px 0;
+}
+
+.chatbox .submit-messenger {
+    border: 1px solid rgb(32, 195, 189);
+    background: rgb(32, 195, 189);
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.chatbox .input:focus {
+    outline: none;
+}
+
+.chatbox .content .name {
+    font-size: 11px;
+    color: rgb(84, 83, 87);
+    font-style: italic;
+    font-weight:bold;
+}
+
+.chatbox .content .chat-item {
+    margin: 5px;
+}
+
+.chatbox .emoticon {
+    width: 405px;
+}
+
+.chatbox .emoticon .emoticon-icon {
+    cursor: pointer;
+    margin: 3px;
+    width: 25px;
+    height: 25px;
+}
+
+.chatbox .emoticon .advanced {
+    /* display: none; */
+}
+
+.chatbox .emoticon {
+    border: 1px solid rgb(228, 223, 221);
+    padding: 5px;
+    list-style: none;
+    height: 185px;
+    text-align: center;
+    overflow: auto;
+    display: none;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 1px 1px 4px 1px silver;
+    -webkit-box-shadow: 1px 1px 4px 1px silver;
+}
+
+.chatbox .emoticon li {
+    list-style: none;
+    float: left;
+    font-size: 11px;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+ul.emoticon-title-type {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.chatbox .emoticon li.active, .chatbox .emoticon li:hover {
+    background: rgb(167, 242, 255);
+}
+
+.chatbox .emoticon-icon.fun {
+    width: 40px;
+    height: 50px;
+    margin: 6px;
+}
+
+.chatbox .emoticon-icon.other {
+    width: 40px;
+    height: 50px;
+    margin: 6px;
+}
+
+.chatbox .emoticon-icon.cartoon {
+    width: 40px;
+    height: 50px;
+    margin: 6px;
+}
+
+.chatbox .emoticon-icon.beautiful {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+}
+.chatbox .frame {
+    width: 300px;
+}
+
+.scroll::-webkit-scrollbar-thumb{
+    background-color: #DA4E79;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.scroll::-webkit-scrollbar{
+    width: 4px;
+    border-radius: 5px;
+    /* border: 1px solid silver; */
+}
+
+.scroll::-webkit-scrollbar-track {
+    /* background: red; */
+}
+
+.scroll::-webkit-scrollbar-button {
+    /* background: red; */
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: #C00808;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.scroll::scrollbar-thumb{
+    background-color: #DA4E79;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.scroll::scrollbar{
+    width: 4px;
+    border-radius: 5px;
+    /* border: 1px solid silver; */
+}
+
+.scroll::scrollbar-track {
+    /* background: red; */
+}
+
+.scroll::scrollbar-button {
+    /* background: red; */
+}
+
+.scroll::scrollbar-thumb:hover {
+    background: #C00808;
+    cursor: pointer;
+}
+
+span.toggle-emoticon {
+    background:url(../images/emoticon/basic/1.gif) no-repeat 0;
+    padding: 10px 11px;
+
+    text-align: center;
+}
+
+span.close-emoticon {
+    padding: 10px;
+    background: url(../images/18_Close-128.png) no-repeat 0;
+    background-size: 20px;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    cursor: pointer;
+}

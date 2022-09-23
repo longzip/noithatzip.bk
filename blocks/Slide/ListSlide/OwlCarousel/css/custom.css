@@ -1,0 +1,22 @@
+.owl-pagination {
+    display: none;
+}
+
+.owl-buttons {
+    position: absolute;
+    top: -31px;
+    right: 0;
+    color: red;
+    background: red;
+
+}
+
+.owl-next {
+    text-indent:99px;
+    position:relative;
+}
+
+.owl-next:before{
+    content:"»";
+}
+

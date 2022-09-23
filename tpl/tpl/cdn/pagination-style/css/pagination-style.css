@@ -1,0 +1,76 @@
+.pagination-style-1 #pagination {
+    padding: 15px 0;
+}
+
+.pagination-style-1 #pagination a {
+    background-color: #b21117;
+    color: #fff;
+    padding: 5px 10px;
+    transition: all .38s;
+    text-decoration: none;
+}
+
+.pagination-style-1 #pagination a.active {
+    background-color: #F5D045;
+    color: #b21117;
+}
+
+.pagination-style-1 #pagination a:hover {
+    background-color: #F5D045;
+    color: #b21117;
+}
+
+.pagination-style-1 #pagination .last {
+    margin-left: 5px;
+}
+
+/*Chuyen trang kieu 2*/
+.pagination-style-2 #pagination a {
+    text-decoration: none;
+    color: #24519e;
+    border: 1px solid rgba(36, 81, 158, 0.21);
+    padding: 1px 5px;
+}
+
+.pagination-style-2 #pagination .next {
+    margin-right: 3px;
+}
+
+.pagination-style-2 #pagination a.active {
+    color: #333;
+    font-weight: 700;
+    border: none;
+}
+
+/*Chuyen trang kieu 3*/
+.pagination-style-3 #pagination {
+    padding: 15px 0;
+}
+
+.pagination-style-3 #pagination a {
+    background: transparent;
+    border: none;
+    color: #333;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.pagination-style-3 #pagination a:hover,
+.pagination-style-3 #pagination a.active {
+    background-color: #666;
+    color: #fff;
+}
+
+.pagination-style-3 #pagination .last,
+.pagination-style-3 #pagination .first {
+    border-radius:20px;
+}
+
+
+
+
+
+
