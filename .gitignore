@@ -24,3 +24,4 @@ demos/
 extras/documentation
 tpl/tpl/cache/
 tpl/tpl/templates_c/
+apps/timthumb/cache/

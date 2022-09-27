@@ -206,15 +206,15 @@ function clear_smarty_cache()
 
 
 
-    // $a = scandir(PATH_ROOT . '/tpl/tpl/' . 'cache/');
+    $a = scandir(PATH_ROOT . '/tpl/tpl/' . 'cache/');
 
-    // foreach($a as $v)
+    foreach($a as $v)
 
-    // {
+    {
 
-    //     if(is_file(PATH_ROOT . '/tpl/tpl/' . 'cache/' . $v)) @unlink(PATH_ROOT . '/tpl/tpl/' . 'cache/' . $v);
+        if(is_file(PATH_ROOT . '/tpl/tpl/' . 'cache/' . $v)) @unlink(PATH_ROOT . '/tpl/tpl/' . 'cache/' . $v);
 
-    // }
+    }
 
     if(!file_exists(PATH_ROOT . '/tpl/tpl/' . 'templates_c/' . DOMAIN_ID)) return;
 

@@ -13,7 +13,7 @@
 <span class="go-to-top"><i class="fa fa-arrow-up"></i></span>
   
 {$g_functions->display_extension_by_position('before_close_body')}
-<div class="hotline-phone-ring-wrap">
+<!--<div class="hotline-phone-ring-wrap">
 	<div class="hotline-phone-ring">
 		<div class="hotline-phone-ring-circle"></div>
 		<div class="hotline-phone-ring-circle-fill"></div>
@@ -29,6 +29,7 @@
 		</a>
 	</div>
 </div>
+-->
 
 </body>
 </html>
