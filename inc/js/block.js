@@ -96,11 +96,7 @@ $(document).ready(function(){
 
 	{
 
-		$(".block_area .core-block").append('<span title="Xóa Block" class="delete_block block_action"></span>\
-
-                        <span title="Sửa Block" class="update_block block_action"></span>\
-
-						<div class="block-borer"></div>');
+		$(".block_area .core-block").append('<span title="Xóa Block" class="delete_block block_action"></span><span title="Sửa Block" class="update_block block_action"></span><div class="block-borer"></div>');
 
 						
 
