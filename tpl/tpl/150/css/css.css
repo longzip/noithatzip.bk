@@ -898,6 +898,12 @@ div#top-header {
     #v-toggle-menu{
         top:-25px;
     }
+
+    #so-hotline{
+        position: absolute;
+    top: 9px;
+    right: 54px;
+    }
 }
 .list-price {
     height: 50px;
