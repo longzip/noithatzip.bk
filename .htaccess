@@ -3,6 +3,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.noithatzip.com [NC]
+RewriteRule ^(.*)$ https://noithatzip.com/$1 [L,R=301]
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
