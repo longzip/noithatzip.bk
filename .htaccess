@@ -12,6 +12,8 @@ RewriteRule . /index.php [L]
 RewriteRule ^/apps/timthumb - [L]
 
 </IfModule>
+AddType text/css .css
+AddType application/javascript .js
 
 # END WordPress
 
