@@ -76,7 +76,7 @@
 
             'ecomm_prodid': {$g_functions->format_string($post_info.masp)},
 
-            'ecomm_pagetype': 'product'
+            'ecomm_pagetype': 'product',
 
             'ecomm_totalvalue': {$post_info.gia}
 

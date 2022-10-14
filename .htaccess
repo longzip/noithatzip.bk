@@ -15,6 +15,7 @@ RewriteRule ^/apps/timthumb - [L]
 AddType text/css .css
 AddType application/javascript .js
 
+
 # END WordPress
 
 # php -- BEGIN cPanel-generated handler, do not edit
