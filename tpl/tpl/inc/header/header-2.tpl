@@ -124,7 +124,7 @@
                                              <a href="https://noithatzip.com/ghe-ban/">Bàn Ghế</a>
                                              <span class="menu-arrow menu-arrow-8" par="8"></span>
                                              <ul class="sub-menu sub-menu-8" par="8">
-                                                <li class="menu-item-25" par="25"><a href="https://noithatzip.com/ghe-gap-zi01/">Ghế Gấp Zi01</a></li>
+                                                <li class="menu-item-25" par="25"><a href="https://noithatzip.com/ghe-gap-zi01/">Ghế Gấp Zica</a></li>
                                                 <li class="menu-item-26" par="26"><a href="https://noithatzip.com/don-plum/">Đôn Plum</a></li>
                                                 <li class="menu-item-27" par="27"><a href="https://noithatzip.com/ban-hoc-lam-viec-thong-minh-olive/">Bàn Học -  Làm Việc Thông Minh OLIVE</a></li>
                                                 <li class="menu-item-28" par="28"><a href="https://noithatzip.com/ban-mango/">Bàn Mango</a></li>
