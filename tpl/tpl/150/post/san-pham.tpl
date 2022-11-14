@@ -348,7 +348,7 @@
 
                                             <div class="ma-sp-inner">
 
-                                                <span class="masp-label">Mã sản phẩm : </span>
+                                                <span class="masp-label">Mã sản phẩm 1: </span>
 
                                                 <span class="ma-sp-text">{$post_info.masp}</span>
 
@@ -399,6 +399,41 @@
                                                     
 
                                                 </div>
+                                                {elseif !empty($post_info.gia_km)}
+
+                                                
+
+{$percent = 100 * ($post_info.gia - $post_info.gia_km) / $post_info.gia }
+
+
+
+<span class="sale-percent">-  {$g_functions->floor($percent) }%</span>
+
+
+
+<div class="single-sale-price">
+
+    <span class="sale-price-label">Giá : </span>
+
+    <span class="sale-price-value">{$g_functions->num_to_price($post_info.gia)} đ</span>
+
+</div>
+
+
+
+<div class="single-price">
+
+   
+
+    <span class="price-label">Giá KM: </span>
+
+    
+
+    <span class="price-value">{$g_functions->num_to_price($post_info.gia_km)} đ</span>
+
+    
+
+</div>
 
                                             {else}
 

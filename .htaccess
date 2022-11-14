@@ -1,4 +1,16 @@
 Header add Access-Control-Allow-Origin "*"
+Redirect 301 /mien-trung/ https://blog.noithatzip.com/
+Redirect 301 /showroom-savico/ https://blog.noithatzip.com/
+Redirect 301 /showroom-le-van-viet/ https://blog.noithatzip.com/
+Redirect 301 /showroom-su-van-hanh/ https://blog.noithatzip.com/
+Redirect 301 /showroom-thao-dien/ https://blog.noithatzip.com/showroom-thao-dien
+Redirect 301 /showroom-times-city/ https://blog.noithatzip.com/showroom-times-city
+Redirect 301 /giuong-sofa-ivy-giai-phap-thong-minh-cho-nha-pho-co/ https://blog.noithatzip.com/giuong-sofa-ivy-giai-phap-thong-minh-cho-nha-pho-co
+Redirect 301 /nem-cao-su-co-su-dung-voi-giuong-gap-thong-minh-duoc-khong/ https://blog.noithatzip.com/nem-cao-su-co-su-dung-voi-giuong-gap-thong-minh-duoc-khong
+Redirect 301 /giai-phap-thiet-ke-phong-ngu-2-con-1-trai-1-gai/ https://blog.noithatzip.com/giai-phap-thiet-ke-phong-ngu-2-con-1-trai-1-gai
+Redirect 301 /10-ly-do-cuc-thuyet-phuc-ve-noi-that-thong-minh-tai-zip/ https://blog.noithatzip.com/10-ly-do-cuc-thuyet-phuc-ve-noi-that-thong-minh-tai-zip
+Redirect 301 /top-3-mau-giuong-gap-thong-minh-zip-ban-chay-nhat/ https://blog.noithatzip.com/top-3-mau-giuong-gap-thong-minh-zip-ban-chay-nhat
+Redirect 301 /nhung-phien-toai-khi-su-dung-giuong-sofa-thong-minh-co-khung-hop/ https://blog.noithatzip.com/nhung-phien-toai-khi-su-dung-giuong-sofa-thong-minh-co-khung-hop
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
